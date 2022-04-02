@@ -1,0 +1,65 @@
+{
+  "Event": {
+    "#attributes": {
+      "xmlns": "http://schemas.microsoft.com/win/2004/08/events/event"
+    },
+    "EventData": {
+      "CommandLine": "Sysmon.exe  -u",
+      "Company": "Sysinternals - www.sysinternals.com",
+      "CurrentDirectory": "C:\\Users\\IEUser\\Downloads\\Sysmon\\",
+      "Description": "System activity monitor",
+      "FileVersion": "13.10",
+      "Hashes": "MD5=DE5291AAB5CE0F305B4882CF2324A320,SHA256=902B30F1A5510B7B72BAD794AF3614B487360553E6246F6358B6A64A57046800,IMPHASH=FCA4E789B7E426FECECA7AC808CCE473",
+      "Image": "C:\\Users\\IEUser\\Downloads\\Sysmon\\Sysmon.exe",
+      "IntegrityLevel": "High",
+      "LogonGuid": "747F3D96-DE82-6094-4A13-0F0000000000",
+      "LogonId": "0xf134a",
+      "OriginalFileName": "-",
+      "ParentCommandLine": "\"C:\\Windows\\system32\\cmd.exe\" ",
+      "ParentImage": "C:\\Windows\\System32\\cmd.exe",
+      "ParentProcessGuid": "747F3D96-21B0-6095-F102-000000001D00",
+      "ParentProcessId": 5344,
+      "ProcessGuid": "747F3D96-302C-6095-9704-000000001D00",
+      "ProcessId": 1508,
+      "Product": "Sysinternals Sysmon",
+      "RuleName": "-",
+      "TerminalSessionId": 1,
+      "User": "MSEDGEWIN10\\IEUser",
+      "UtcTime": "2021-05-07 12:18:52.262"
+    },
+    "System": {
+      "Channel": "Microsoft-Windows-Sysmon/Operational",
+      "Computer": "MSEDGEWIN10",
+      "Correlation": null,
+      "EventID": 1,
+      "EventRecordID": 1482,
+      "Execution": {
+        "#attributes": {
+          "ProcessID": 4804,
+          "ThreadID": 5500
+        }
+      },
+      "Keywords": "0x8000000000000000",
+      "Level": 4,
+      "Opcode": 0,
+      "Provider": {
+        "#attributes": {
+          "Guid": "5770385F-C22A-43E0-BF4C-06F5698FFBD9",
+          "Name": "Microsoft-Windows-Sysmon"
+        }
+      },
+      "Security": {
+        "#attributes": {
+          "UserID": "S-1-5-18"
+        }
+      },
+      "Task": 1,
+      "TimeCreated": {
+        "#attributes": {
+          "SystemTime": "2021-05-07T12:18:52.399390Z"
+        }
+      },
+      "Version": 5
+    }
+  }
+}
