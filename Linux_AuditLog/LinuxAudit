@@ -1,0 +1,19 @@
+#Looking for IP Address
+f=open('audit.log')
+linecounter=1
+'''
+for x in f:
+    if '.' in x:
+        couter=0 #Counter for dot which help find ip adress
+        for dot in x:
+            if dot =='.':
+                couter+=1
+        if(couter>4):
+            print(str(couter) + " " + x)
+    linecounter
+'''
+for x in f:
+    if 'auid' in x:
+        print(str(linecounter)+ " " + x)
+    linecounter+=1
+
