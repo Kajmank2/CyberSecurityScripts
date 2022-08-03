@@ -1,6 +1,7 @@
 #Looking for IP Address
 f=open('audit.log')
 linecounter=1
+# Looking for compromised Ip
 '''
 for x in f:
     if '.' in x:
@@ -12,8 +13,24 @@ for x in f:
             print(str(couter) + " " + x)
     linecounter
 '''
+#CVE 2021-3156 Looking for sudoedit in command
+'''
 for x in f:
-    if 'auid' in x:
+    if 'sudoedit' in x:
         print(str(linecounter)+ " " + x)
     linecounter+=1
+'''
+#Looking for execve
+for x in f:
+    if 'EXECVE' in x:
+            print(str(linecounter)+ x)
+    linecounter += 1
+
+'''
+# GCC
+for x in f:
+    if 'gcc' in x:
+        print(str(linecounter)+ " " + x)
+    linecounter+=1
+'''
 
